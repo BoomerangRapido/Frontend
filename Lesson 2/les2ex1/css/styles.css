@@ -1,0 +1,47 @@
+header {
+    height: 100px;
+    background: lightblue;
+}
+
+img {
+    float:left;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+    height: inherit;
+}
+
+li {
+  display: inline-block;
+  background-color: black;
+  height: 100px;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  width: 200px;
+  text-align: center;
+}
+
+@media screen and (min-width: 0px) {
+  header {
+    background: red;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  header {
+    background: yellow;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  header {
+    background: green;
+  }
+}
